@@ -5,6 +5,8 @@ import '../../domain/datasources/video_posts_datasource.dart';
 import '../../shared/data/video_post.dart';
 
 class LocalVideoDataSourceImpl implements VideoPostDataSource {
+
+
   @override
   Future<List<VideoPostEntity>> getFavoriteVideosByUser(String userId) {
     // TODO: implement getFavoriteVideosByUser
